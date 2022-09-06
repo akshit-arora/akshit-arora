@@ -17,16 +17,6 @@ class About extends Me
         return 'Ahmedabad, India';
     }
     
-    public function getCurrentWorkplace(): array
-    {
-        return [
-            'workplace' => [
-                'company' => 'TOPS Infosolutions Pvt. Ltd.',
-                'position' => 'Sr. Software Engineer'         
-            ]
-        ];
-    }
-    
     public function getKnownLanguages(): array
     {
         return [
